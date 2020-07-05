@@ -1,0 +1,484 @@
+/*// Extra small devices (portrait phones, less than 576px)*/
+
+@media (min-width: 320px) and (max-width:375px) {
+    .dates h2 {
+        font-size: 1.7em;
+    }
+
+    .intro-bg .navbar-expand-lg .navbar-nav {
+        padding-left: 0em;
+    }
+
+    .about-try  .navbar-expand-lg .navbar-nav{
+        padding-left: 0em;
+    }
+
+    .album-try .album-intro h1 {
+        font-size: 1.7em;
+    }
+    
+    .album-try .playlist iframe {
+        margin-left: 0;
+    }
+
+
+    .social h2 {
+        width: 50% !important;
+    }
+
+    .carousel-indicators {
+        left: 5em !important;
+        top: auto !important;
+    }
+
+    h2 {
+        font-size: 1.4em !important;
+    }
+
+    .news-detail iframe {
+        margin-left: 0;
+    }
+
+    .flaticon-left-1 {
+        left: 15em !important;
+    }
+
+    .flaticon-right-1 {
+        right: 3em !important;
+    }
+    
+    .about-intro h1 {
+        font-size: 2.3rem !important;
+    }
+   
+    .about-try .mini-article .alone2 {
+        margin-left: 0;
+    }
+
+    .about-try .mini-article .about-img {
+        height: 11em;
+    }
+    .about-try .mini-article .album3 {
+        width: 40% !important;
+        height: 8em;
+    }
+
+
+}
+
+@media (max-width: 575.98px) {
+    .navbar-expand-lg .navbar-nav {
+        padding-left: 0;
+    }
+
+    .intro-bg .navbar-expand-lg .navbar-nav {
+        padding-left: 0em;
+    }
+
+    .about-try  .navbar-expand-lg .navbar-nav{
+        padding-left: 0em;
+    }
+    
+    .ml {
+        margin-left: 0;
+    }
+
+    .intro {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
+    }
+
+    .album-try .album-intro h1 {
+        font-size: 1.7em;
+    }
+
+    .social {
+        clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
+    }
+
+    .talks {
+        clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .albums .same {
+        margin: auto;
+    }
+
+    h2 {
+        font-size: 1.7em;
+    }
+
+
+    .social h2 {
+        margin-top: 3em;
+    }
+
+    .intro h1 {
+        font-size: 2em;
+    }
+
+    .talks .tab-pane h2 {
+        width: 100%;
+    }
+
+    .sign .logo {
+        width: 23%;
+    }
+
+    .albums .logo {
+        width: 25%;
+    }
+
+    .sign .navbar-nav .nav-link,
+    .sign .social-icons .nav-link {
+        font-size: .7em;
+    }
+
+    .carousel-indicators {
+        right: -10em;
+    }
+
+    .carousel-indicators {
+        right: auto;
+        top: auto;
+        left: 8em;
+        bottom: 6em;
+        display: flex;
+    }
+
+    .news .custom-card .album1 {
+        width: 100%;
+        height: 18em;
+    }
+
+    .news .tour h3 {
+        width: 100%;
+    }
+
+    .news .custom-card p {
+        width: 100%;
+    }
+
+    .news .tour p {
+        width: 100%;
+    }
+
+    .try2 .clippy {
+        clip-path: polygon(0 0, 100% 7%, 100% 96%, 0% 100%);
+    }
+
+    .qoute {
+        width: 100%;
+    }
+
+    .sign h1 {
+        font-size: 1.9em;
+    }
+
+    .news-detail iframe {
+        margin-left: 0;
+    }
+
+    .qoute {
+        width: 100%;
+        font-size: 1.1em;
+    }
+
+    .client h6 {
+        top: .5em;
+        font-size: .8em;
+    }
+
+    .latest-social h2 {
+        width: 100%;
+    }
+
+    .flaticon-left-1 {
+        position: absolute;
+        left: 20em;
+        top: -6em;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    .flaticon-right-1 {
+        position: absolute;
+        right: 0em;
+        cursor: pointer;
+        z-index: 2;
+        top: -6em;
+    }
+
+    .about-try .about-intro h6 {
+        width: 80%;
+    }
+
+    .about-intro h1 {
+        font-size: 2.5rem;
+    }
+
+    .about-intro h5 {
+        font-size: 1.10em;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+
+    .about-try .mini-article .album3 {
+        width: 30%;
+        height: 8em;
+    }
+
+    .about-try .mini-article .about-img {
+        height: 14em;
+    }
+
+
+}
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-expand-lg .navbar-nav {
+        padding-left: 0;
+    }
+
+    .intro-bg .navbar-expand-lg .navbar-nav {
+        padding-left: 0em;
+    }
+
+    .about-try  .navbar-expand-lg .navbar-nav{
+        padding-left: 0em;
+    }
+    
+    .album-try .playlist iframe {
+        margin-left: 0;
+    }
+
+
+    .ml {
+        margin-left: 1em;
+    }
+
+    .carousel-indicators {
+        right: auto;
+        top: auto;
+        left: 11em;
+        bottom: 8em;
+        display: flex;
+    }
+
+    .news-detail iframe {
+        margin-left: 0;
+    }
+
+
+}
+
+/* // Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-expand-lg .navbar-nav {
+        padding-left: 0;
+    }
+
+    .intro-bg .navbar-expand-lg .navbar-nav {
+        padding-left: 0em;
+    }
+
+    .about-try  .navbar-expand-lg .navbar-nav{
+        padding-left: 0em;
+    }
+    
+    
+
+    .intro h2 {
+        font-size: 1.5em;
+    }
+
+    .social h2 {
+        margin-top: 2em;
+    }
+
+    .intro {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
+    }
+
+    .social {
+        clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
+    }
+
+    .talks {
+        clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .carousel-indicators {
+        right: -6em;
+        bottom: 10em;
+    }
+
+    .carousel-indicators li {
+        width: 40px;
+        height: 2px;
+    }
+
+    .news .custom-card .album1 {
+        height: 18em;
+        width: 28em;
+    }
+
+    .news .tour h3 {
+        width: 100%;
+    }
+
+    .news .tour p {
+        width: 50%;
+    }
+
+    .try2 .clippy {
+        clip-path: polygon(0 0, 100% 9%, 100% 95%, 0% 100%);
+    }
+
+    .news-detail iframe {
+        margin-left: 0;
+    }
+
+    .latest .custom-card2 .news1,
+    .latest .custom-card2 .news2,
+    .latest .custom-card2 .news3 {
+        height: 8em;
+    }
+
+    .flaticon-left {
+        top: -5em;
+    }
+
+    .flaticon-right {
+        top: -5em;
+    }
+
+    .qoute {
+        width: 100%;
+    }
+
+    .latest-social h2 {
+        width: 100%;
+    }
+
+
+}
+
+/*// Large devices (desktops, less than 1200px)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .navbar-expand-lg .navbar-nav {
+        padding-left: 6em;
+    }
+
+    .intro-bg .navbar-expand-lg .navbar-nav {
+        padding-left: 6em;
+    }
+
+    .about-try  .navbar-expand-lg .navbar-nav {
+        padding-left: 6em;
+    }
+
+    .dates .date h4 {
+        font-size: 1.1em;
+    }
+
+    .dates .img1,
+    .dates .img2,
+    .dates .img3,
+    .dates .img4,
+    .dates .img5 {
+        width: 8em;
+        height: 5.8em;
+    }
+
+    .custom-margin {
+        margin-top: 5em;
+        margin-left: 3em;
+    }
+
+    .albums .cupe1 {
+        left: 16em;
+        bottom: 18em;
+    }
+
+    .albums .cupe2 {
+        right: 10em;
+        top: 22em;
+    }
+
+    .albums .cupe3 {
+        right: 10em;
+        top: 18em;
+    }
+
+    .albums .cupe4 {
+        left: 19em;
+        bottom: 16em;
+    }
+
+    .talks .tab-pane h2 {
+        width: 50%;
+    }
+
+    .carousel-indicators {
+        right: -10em;
+    }
+
+    .carousel-indicators {
+        right: -9em;
+    }
+
+    .news-detail iframe {
+        margin-left: 0;
+    }
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1300px) {
+
+    .intro-bg .navbar-expand-lg .navbar-nav {
+        padding-left: 15em;
+    }
+
+    .about-try  .navbar-expand-lg .navbar-nav {
+        padding-left: 15em;
+    }
+
+
+    .dates .circles1 {
+        width: 4em;
+    }
+
+    .albums .cupe1 {
+        left: 22em;
+        bottom: 18em;
+    }
+
+    .albums .cupe2 {
+        right: 22em;
+        top: 22em;
+    }
+
+    .albums .cupe3 {
+        right: 22em;
+        top: 19em;
+    }
+
+    .albums .cupe4 {
+        left: 26em;
+        bottom: 17em;
+    }
+
+    .carousel-indicators {
+        right: -9em;
+    }
+
+}
